@@ -1,0 +1,10 @@
+def fib():
+  x=int(input())
+  a=0
+  b=1
+  print(a,b,end=' ')
+  for i in range(2,x+2):
+    z=a+b
+    print(z,end=' ')
+    a,b=b,z
+fib()
